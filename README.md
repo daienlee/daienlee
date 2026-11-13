@@ -2,20 +2,22 @@
 
 ## 프로젝트
 
-### [고요행](https://github.com/SparrowsMill/goyohaeng_app_backend) · 여행지 추천 앱 백엔드 
-4인 팀 프로젝트에서 장소 데이터 수집·검증·동기화를 담당했습니다.  
+### [Goyohaeng](https://github.com/SparrowsMill/goyohaeng_app_backend) · Backend & Data Engineering  
+Four-person team | Android travel recommendation app released on OneStore
 `TypeScript` · `NestJS` · `PostgreSQL` · `PostGIS` · `Prisma`
 
-- 외부 API 7개의 데이터 수집을 자동화하고, 중복 실행을 방지하고 실패한 레코드를 재처리하는 로직을 구현했습니다.
-- API 응답, 검증을 마친 데이터, DB 저장 데이터에 각각 TypeScript 타입을 정의하고, 외부 입력값은 런타임에 검사했습니다.
-- 동기화 중 점주가 수정한 값이 외부 데이터로 덮어써지지 않도록 처리했습니다.
+- Automated data ingestion from seven external APIs. Prevented duplicate runs, retried failed records, and protected business owner edits during synchronization.
+- Designed the PostgreSQL schema for places, regions, and categories and managed 175,487 place records. 
+- Automated the calculation of a destination discovery score by aligning reporting periods across four APIs. Logged the formula version, input periods, and run history.
 
-소스 코드는 비공개 팀 저장소에서 관리합니다.
 
-### [IPC Project](https://github.com/hemmapovacz/IPC_Project) · 경로 기록 시각화 앱
-UPV 교환학생 팀 프로젝트에서 지도와 고도 그래프를 연동하고,
-지도에서 위치를 선택해 주석을 추가하는 흐름을 구현했습니다.  
+### [IPC Project](https://github.com/hemmapovacz/IPC_Project) · Developer
+Running & Hiking Activity Viewer
 `Java` · `JavaFX`
+
+- Implemented JavaFX screens from Figma prototypes and connected account, activity, and session history workflows.
+- Integrated GPX import and linked an interactive elevation chart to the route overlay so users could locate the corresponding point on the map
+
 <!--
 **daienlee/daienlee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
