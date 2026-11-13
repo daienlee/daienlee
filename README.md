@@ -15,9 +15,12 @@ Four-person team | Android travel recommendation app released on OneStore
 Running & Hiking Activity Viewer
 `Java` · `JavaFX`
 
-- Implemented JavaFX screens from Figma prototypes and connected account, activity, and session history workflows.
-- Integrated GPX import and linked an interactive elevation chart to the route overlay so users could locate the corresponding point on the map
+**IPC Tracker | JavaFX Desktop Application**
 
+- Implemented JavaFX screens based on Figma prototypes, integrating user authentication, activity management, and map visualization workflows.
+- Integrated GPX file import and visualized GPS tracks on interactive maps using geographic coordinate projection.
+- Synchronized an elevation chart with map route visualization, enabling users to identify corresponding locations along a track.
+- Implemented point, text, line, and circle annotations with database persistence, along with map upload and geographic boundary validation.
 <!--
 **daienlee/daienlee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
