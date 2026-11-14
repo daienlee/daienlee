@@ -1,6 +1,6 @@
 # 이다연 | Daien Lee
 
-## 프로젝트
+## Projects
 
 ### [Goyohaeng](https://github.com/SparrowsMill/goyohaeng_app_backend) · Backend & Data Engineering  
 Four-person team | Android travel recommendation app released on OneStore
